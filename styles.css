@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-image: url(./asserts/computer.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        } 
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 50%;
+            height: 40%;
+            background-color: rgba(255, 255, 255, 0.822);
+            border-radius: 10px;
+            padding: 80px;
+            margin: auto;
+            margin-top: 90px;
+            margin-bottom: 90px;
+           border-radius: 30pt;
+
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        a{
+            color: rgb(14, 10, 221);
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        label{
+            margin: 0px;
+            font-size: 13px;
+        }
+
+        input{
+            margin: 0px;
+            border: 1px solid rgba(0, 0, 0, 0.243);
+            text-indent: 15px;
+            padding: 2px;
+        }
+
+        .input_field{
+            height:30px;
+            border-radius: 10px;
+            outline: none;
+
+        }
+
+        button{
+            background-color: rgba(83, 4, 211, 0.438);
+            color: white;
+            border: none;
+        }
+
+        button:hover{
+            background-color: rgba(121, 100, 240, 0.612);
+            transition: 1s ease;
+            cursor: pointer;
+        }
+
+        button:focus{
+            background-color: rgba(138, 150, 138, 0.612);
+            cursor: pointer;
+            transition: 1s ease;
+        }
+        
+
+        .survey_label{
+            font-weight: bold;
+        }
+
+        .radio_container{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type=radio]{
+            height: 18px;
+            width: 18px;
+        }
+
+        input[type=checkbox]{
+            height: 18px;
+            width: 18px;
+        }
